@@ -1,0 +1,65 @@
+version: "2"
+services:
+  php:
+    image: docker.adexos.fr/adexos/php7.2-fpm
+    working_dir: /app/htdocs
+    container_name: php_web_cours
+    volumes_from:
+      - appdata
+    depends_on:
+      - db
+    volumes:
+      - ./docker/config/php/php.ini:/usr/local/etc/php/conf.d/php.ini:ro
+      - ./docker/config/php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug-20.ini:ro
+    networks:
+      - default
+  httpd:
+    image: httpd:2.4
+    depends_on:
+      - php
+    container_name: http_web_cours
+    ports:
+      - 8080:80
+    volumes_from:
+      - appdata
+    volumes:
+      - ./docker/config/httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf:ro
+      - ./docker/config/httpd/vhost.conf:/usr/local/apache2/conf/vhost.conf:ro
+    networks:
+      - default
+  db:
+    image: mysql:5.7
+    ports:
+      - 3306
+    container_name: db_web_cours
+    volumes_from:
+      - dbdata
+    env_file:
+      - ./docker/envs/mysql.env
+    volumes:
+      - ./docker/config/mysql/mysql-secure-file.cnf:/etc/mysql/conf.d/mysql-secure-file.cnf
+  phpmyadmin:
+    image: 'phpmyadmin/phpmyadmin'
+    links:
+      - db
+    restart: always
+    container_name: pma_web_cours
+    networks:
+      - 'default'
+    ports:
+      - 8081:80
+  appdata:
+    image: tianon/true
+    container_name: data_file_web_cours
+    volumes:
+      - ./:/app
+  dbdata:
+    image: tianon/true
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+  mongodata:
+    image: tianon/true
+    volumes:
+      - ./data/mongo:/data/db
+networks:
+  default:

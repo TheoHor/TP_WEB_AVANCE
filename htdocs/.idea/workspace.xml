@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b17fb4b2-0027-4c94-a7cb-c68abfd37353" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="htdocs" />
+  </component>
+  <component name="ProjectId" id="1WTmAqi7tcUpmxW71S1XieHRmCU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Framework" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/src/Command" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b17fb4b2-0027-4c94-a7cb-c68abfd37353" name="Default Changelist" comment="" />
+      <created>1579181817054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579181817054</updated>
+      <workItem from="1579181818215" duration="9667000" />
+      <workItem from="1579253164683" duration="30000" />
+      <workItem from="1579253196045" duration="192000" />
+      <workItem from="1579510925476" duration="1494000" />
+      <workItem from="1579512549371" duration="8189000" />
+      <workItem from="1580201693468" duration="6305000" />
+      <workItem from="1580213937966" duration="10765000" />
+      <workItem from="1580251555098" duration="283000" />
+      <workItem from="1580307402820" duration="3000" />
+      <workItem from="1580458016103" duration="14147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="248" y="261" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1580478326428">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="248" y="261" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1010@0.27.1920.1010" timestamp="1580478326428" />
+    <state x="291" y="271" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/49.27.1871.1053@49.27.1871.1053" timestamp="1579512839281" />
+    <state x="295" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579537707019">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="295" y="311" width="424" height="484" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1579537707019" />
+    <state x="239" y="366" width="545" height="373" key="NewPhpClassDialog" timestamp="1579183891308">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="239" y="366" width="545" height="373" key="NewPhpClassDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1579183891308" />
+    <state x="329" y="530" width="399" height="149" key="NewPhpFileDialog" timestamp="1579529301891">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="329" y="530" width="399" height="149" key="NewPhpFileDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1579529301891" />
+    <state x="332" y="235" key="SettingsEditor" timestamp="1579515821245">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="332" y="235" key="SettingsEditor/49.27.1871.1053@49.27.1871.1053" timestamp="1579515821245" />
+    <state x="149" y="125" width="1671" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579514797671">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="149" y="125" width="1671" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1579514797671" />
+    <state x="149" y="125" width="1671" height="855" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1579514814908">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="149" y="125" width="1671" height="855" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1579514814908" />
+    <state x="254" y="246" width="657" height="613" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1579186117890">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="254" y="246" width="657" height="613" key="com.jetbrains.php.test.PhpNewTestDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1579186117890" />
+    <state x="135" y="244" key="run.anything.popup" timestamp="1580206885919">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="135" y="244" key="run.anything.popup/0.27.1920.1010@0.27.1920.1010" timestamp="1580206885919" />
+    <state x="181" y="253" key="run.anything.popup/49.27.1871.1053@49.27.1871.1053" timestamp="1579512405058" />
+    <state x="242" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579192365879">
+      <screen x="49" y="27" width="1871" height="1053" />
+    </state>
+    <state x="242" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/49.27.1871.1053@49.27.1871.1053" timestamp="1579192365879" />
+  </component>
+</project>
