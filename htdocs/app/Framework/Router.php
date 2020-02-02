@@ -1,38 +1,61 @@
 <?php
-
 namespace App\Framework;
 
-class Router
-{
+class Router{
+    /**
+     * Tableau contenant les routes
+     *
+     * @var mixed
+     */
     private $routes;
+    /**
+     * Classe à appeler
+     *
+     * @var
+     */
     private $class;
+    /**
+     * Méthode à appeler dans la classe
+     *
+     * @var
+     */
     private $method;
 
-    public function __construct()
-    {
+    /**
+     * Router constructor.
+     */
+    public function __construct(){
         $this->routes = require(BASE_DIR . '/routes.php');
     }
 
-    public function exec()
-    {
+    /**
+     * Execute le rendu d'une page par rapport à l'URL
+     */
+    public function exec(){
         try {
             $this->prepare();
-            call_user_func([new $this->class , $this->method]);
-
-        } catch (\Exception $e) {
-            echo $e->getMessage();
+            call_user_func([new $this->class, $this->method]);
+        } catch (\Exception $e){
+            $params = array($e->getMessage());
+            call_user_func_array([new $this->class, $this->method], $params);
             die;
         }
     }
 
-    private function prepare()
-    {
-        if (!isset($this->routes[$_SERVER['REQUEST_URI']])) {
-            throw new \Exception('Error path');
+    /**
+     * Prépare le chargement de la page
+     *
+     * @throws \Exception
+     */
+    private function prepare(){
+        if(!isset($this->routes[$_SERVER["REQUEST_URI"]])){
+            $this->class = 'App\Controller\Error';
+            $this->method = 'error';
+            throw new \Exception('Error Path');
+        } else {
+            $route = $this->routes[$_SERVER["REQUEST_URI"]];
+            $this->class = array_shift($route);
+            $this->method = array_shift($route);
         }
-
-        $route = $this->routes[$_SERVER['REQUEST_URI']];
-        $this->class = array_shift($route);
-        $this->method = array_shift($route);
     }
 }

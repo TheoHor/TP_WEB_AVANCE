@@ -1,11 +1,17 @@
 <?php
 
-class Autoload
-{
-    public static function run()
+/**
+ * Class Autoload
+ */
+class Autoload{
+
+    static public function run()
     {
         spl_autoload_register(function ($class) {
-            include lcfirst(str_replace("\\",DS,$class)). '.php';
+
+
+            $class = lcfirst(str_replace('\\',DS,$class).'.php');
+            require_once $class;
         });
     }
 }

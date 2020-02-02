@@ -1,1 +1,20 @@
-<h1>HEADERED</h1>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>titre</title>
+    <?php
+    foreach ($this->getCss() as $css) {
+        echo('<link rel=\'stylesheet\' type=\'text/css\' href=\'css/' . $css . '\' />');
+    }
+
+    foreach ($this->getJs() as $js) {
+        echo('<script type=\'text/javascript\' src=\'js/' . $js . '\'></script>');
+    } ?>
+</head>
+
+
+<body>
+<h1>HEADER</h1>
+</body>
+</html>
