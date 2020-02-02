@@ -1,8 +1,8 @@
 # TP_WEB_AVANCE
 
-Implémentation de : 
-  -Autoloader pour charger les classes nécessaires.
-  -Routeur
-  -Gestion des fichiers CSS et JS
-  -Page 404
-  -Formulaire avec sa page réponse, header et footer.
+Implémentation de : <br/>
+  -Autoloader pour charger les classes nécessaires.<br/>
+  -Routeur<br/>
+  -Gestion des fichiers CSS et JS<br/>
+  -Page 404<br/>
+  -Formulaire avec sa page réponse, header et footer.<br/>
