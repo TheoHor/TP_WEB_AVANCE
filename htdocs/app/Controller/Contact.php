@@ -1,14 +1,14 @@
 <?php
-
 namespace App\Controller;
 
-use app\Framework\ControllerAbstract;
+use App\Framework\ControllerAbstract;
 
-class Contact extends ControllerAbstract
-{
-    public function index()
-    {
-        $this->loadLayout("template.phtml");
+class Contact extends ControllerAbstract {
+    const TEMPLATE = 'contact.phtml';
+
+    public function index(){
+        $this->loadLayout(self::TEMPLATE);
         $this->render();
     }
 }
+

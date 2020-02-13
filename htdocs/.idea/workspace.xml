@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b17fb4b2-0027-4c94-a7cb-c68abfd37353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controller/Action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controller/Error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Framework/ControllerPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Template/action.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Template/error.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../data/mysql/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/mysql/ibtmp1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Framework/ControllerAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Framework/ControllerAbstract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Framework/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Framework/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Template/footer.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/footer.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/header.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Template/template.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/template.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ADEXOS/sylviethiriez.com" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -101,6 +87,7 @@
       <workItem from="1580458016103" duration="19740000" />
       <workItem from="1580657438293" duration="2512000" />
       <workItem from="1580673036212" duration="412000" />
+      <workItem from="1580718590214" duration="1214000" />
     </task>
     <servers />
   </component>
@@ -113,9 +100,10 @@
     </state>
     <state x="248" y="261" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1010@0.27.1920.1010" timestamp="1580480146858" />
     <state x="291" y="271" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/49.27.1871.1053@49.27.1871.1053" timestamp="1579512839281" />
-    <state x="295" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579537707019">
-      <screen x="49" y="27" width="1871" height="1053" />
+    <state x="1582" y="1371" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580726045938">
+      <screen x="1330" y="1080" width="1920" height="1080" />
     </state>
+    <state x="1582" y="1371" key="FileChooserDialogImpl/1330.1080.1920.1080/0.0.1920.1080@1330.1080.1920.1080" timestamp="1580726045938" />
     <state x="295" y="311" width="424" height="484" key="FileChooserDialogImpl/49.27.1871.1053@49.27.1871.1053" timestamp="1579537707019" />
     <state x="239" y="366" width="545" height="373" key="NewPhpClassDialog" timestamp="1579183891308">
       <screen x="49" y="27" width="1871" height="1053" />

@@ -1,6 +1,9 @@
 version: "2"
 services:
   php:
+    build:
+      context: .
+      dockerfile: docker/build/php/Dockerfile
     image: docker.adexos.fr/adexos/php7.2-fpm
     working_dir: /app/htdocs
     container_name: php_web_cours

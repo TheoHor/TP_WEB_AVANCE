@@ -1,18 +1,16 @@
 <?php
-
 namespace App\Controller;
 
-use App\Customer;
+use App\Model\Customer;
 use App\Framework\ControllerPost;
+use App\Model\Repository\CustomerRepository;
 
-class Action extends ControllerPost
-{
+class Action extends ControllerPost {
     const TEMPLATE = 'action.phtml';
 
     private $customer;
 
-    public function index()
-    {
+    public function index(){
         $this->loadLayout(self::TEMPLATE);
 
         $lastname = $this->getParam('lastname');
@@ -21,11 +19,13 @@ class Action extends ControllerPost
 
         $this->customer = new Customer($lastname, $firstname, $age);
 
+        $repo = new CustomerRepository();
+        $repo->save($this->customer);
+
         $this->render();
     }
 
-    public function getCustomer()
-    {
+    public function getCustomer(){
         return $this->customer;
     }
 }
