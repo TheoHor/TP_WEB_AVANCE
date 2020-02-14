@@ -1,4 +1,5 @@
 <?php
+
 define('DS','/');
 
 define('DB_HOST', 'db');

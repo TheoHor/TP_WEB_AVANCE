@@ -2,36 +2,18 @@
 namespace App\Framework;
 
 class Router{
-    /**
-     * Tableau contenant les routes
-     *
-     * @var mixed
-     */
+
     private $routes;
-    /**
-     * Classe à appeler
-     *
-     * @var
-     */
+
     private $class;
-    /**
-     * Méthode à appeler dans la classe
-     *
-     * @var
-     */
+
     private $method;
     private $parameters = [];
 
-    /**
-     * Router constructor.
-     */
     public function __construct(){
         $this->routes = require(BASE_DIR . '/routes.php');
     }
 
-    /**
-     * Execute le rendu d'une page par rapport à l'URL
-     */
     public function exec(){
         try {
             $this->prepare();
@@ -43,11 +25,6 @@ class Router{
         }
     }
 
-    /**
-     * Prépare le chargement de la page
-     *
-     * @throws \Exception
-     */
     private function prepare(){
         foreach ($this->routes as $key => $val){
             if(strpos($key, '#') === 0 && preg_match($key, $_SERVER["REQUEST_URI"])){
